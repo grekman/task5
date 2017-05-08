@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.wraper {
+  width: 822px;
+  height: 420px;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+
+.header {
+  height: 118px;
+  background: #FD8509;
+
+}
+
+p {
+  line-height: 30px;
+}
+
+.city {
+  width: 33.3%;
+  /*border: 1px solid black;*/
+  height: 300px;
+  float: left;
+}
+
+img {
+  height: 140px;
+  width: 90%;
+
+}
+
+
+@media screen and (max-width:440px) {
+  .wraper {
+    width: 438px;
+
+  }
+
+  .city {
+    width: 100%;
+    /*border: 1px solid black;*/
+    height: auto;
+    float:none;
+  }
+
+  img {
+    height: auto;
+    width: 436px;
+
+
+  }
+
+}
